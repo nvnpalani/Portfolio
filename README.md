@@ -1,66 +1,255 @@
-# Naveen P - Personal Portfolio
+# 🌐 Naveen P – Personal Portfolio
 
-A modern, fully responsive personal portfolio website showcasing my skills, experience, and projects. Built with Angular 19 and Tailwind CSS, this portfolio features a clean UI, dynamic theme switching (including dark mode), and a seamless user experience.
+A modern, fully responsive personal portfolio website built with **Angular 19** and **Tailwind CSS**. This portfolio showcases my professional experience as an Angular Developer, AI & Deep Learning projects, technical skills, resume, and GitHub repositories.
+
+The goal of this portfolio is to provide recruiters and developers with a complete overview of my technical expertise, real-world experience, and personal projects.
+
+---
+
+## 🚀 Live Demo
+
+🌍 **Portfolio:** https://your-portfolio-url.onrender.com
+
+---
 
 ## ✨ Features
 
-- **Modern UI/UX**: Clean, professional, and visually appealing design.
-- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices.
-- **Dynamic Theming**: Support for Light & Dark modes with customizable primary color accents.
-- **Interactive Sections**: 
-  - **About Me**: Brief introduction and professional summary.
-  - **Skills**: Technical skills categorized by languages, frameworks, and tools.
-  - **Experience & Education**: Timeline-based professional history and academic qualifications.
-  - **Projects**: Showcases of professional and personal projects.
-  - **Contact**: Direct links to email, LinkedIn, and GitHub.
-- **Resume Download**: Easily download my latest CV directly from the site.
+- 🎨 Modern and Professional UI
+- 📱 Fully Responsive Design
+- 🌗 Light & Dark Theme
+- 🎨 Dynamic Theme Color Switching
+- 👨‍💻 About Me
+- 🛠️ Technical Skills
+- 💼 Professional Experience
+- 🎓 Education
+- 🚀 Featured Projects
+- 🤖 AI & Deep Learning Projects
+- 📄 Resume Download
+- 📬 Contact Information
+- 🔗 GitHub & LinkedIn Integration
 
-## 🛠️ Tech Stack
+---
 
-- **Framework**: [Angular](https://angular.dev/) (v19)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Icons**: Custom SVG icons
-- **Deployment**: Configured for standard web hosting platforms
+# 💼 Featured Projects
 
-## 🚀 Getting Started
+## 🏆 Squad Sports
 
-To get a local copy up and running, follow these simple steps.
+**Role:** Angular Front-End Developer
 
-### Prerequisites
+### Technologies
+- Angular 19
+- TypeScript
+- HTML5
+- CSS3
+- Tailwind CSS
+- REST APIs
 
-- Node.js (v18 or higher)
-- Angular CLI (v19+)
+### Responsibilities
+- Developed responsive web applications using Angular.
+- Built reusable UI components.
+- Integrated REST APIs.
+- Implemented authentication features.
+- Improved application performance.
+- Fixed bugs and collaborated with the development team.
 
-### Installation
+> **Note:** Source code cannot be shared because it belongs to the company.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/nvnpalani/protfolio.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd protfolio
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-5. Open your browser and navigate to `http://localhost:4200/`.
+---
 
-## 📂 Project Structure
+## 🌱 Crop Identification using Deep Learning
 
-- `src/app/module/` - Contains all feature components (Home, About, Skills, Projects, etc.)
-- `src/app/services/` - Contains shared services (e.g., ThemeService for dark mode & color switching)
-- `src/assets/` - Static assets like images and icons.
-- `public/` - Public facing static files (favicon, logo, cv.pdf).
+### Technologies
 
-## 📬 Contact
+- Python
+- TensorFlow
+- CNN
+- OpenCV
+- NumPy
 
-**Naveen P**
-- Email: nvnpalani9@gmail.com
-- LinkedIn: [linkedin.com/in/nvnpalani9](https://www.linkedin.com/in/nvnpalani9)
-- GitHub: [github.com/nvnpalani](https://github.com/nvnpalani)
+### Features
+
+- Crop Image Classification
+- Disease Detection
+- Image Upload
+- CNN Model Training
+- Prediction System
+
+🔗 GitHub Repository
+
+https://github.com/nvnpalani/crop-identification
+
+---
+
+## 🐶 Dog Breed Identification using CNN
+
+### Technologies
+
+- Python
+- TensorFlow
+- CNN
+- OpenCV
+
+### Features
+
+- Dog Breed Classification
+- Image Upload
+- CNN Prediction
+- Deep Learning Model
+- Model Evaluation
+
+🔗 GitHub Repository
+
+https://github.com/nvnpalani/dog-breed-identification
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- Angular 19
+- TypeScript
+- HTML5
+- CSS3
+- Tailwind CSS
+
+## Programming Languages
+
+- JavaScript
+- TypeScript
+- Python
+
+## AI & Deep Learning
+
+- TensorFlow
+- CNN
+- OpenCV
+- NumPy
+- Pandas
+- Matplotlib
+
+## Tools
+
+- Git
+- GitHub
+- VS Code
+- Label Studio
+- Render
+
+---
+
+# 📂 Portfolio Sections
+
+- Home
+- About
+- Skills
+- Experience
+- Education
+- Projects
+- Resume
+- Contact
+
+---
+
+# ⚙️ Getting Started
+
+## Prerequisites
+
+- Node.js (18 or above)
+- Angular CLI (19+)
+
+## Clone Repository
+
+```bash
+git clone https://github.com/nvnpalani/portfolio.git
+```
+
+## Navigate
+
+```bash
+cd portfolio
+```
+
+## Install Packages
+
+```bash
+npm install
+```
+
+## Run Project
+
+```bash
+npm start
+```
+
+or
+
+```bash
+ng serve
+```
+
+Open your browser:
+
+```
+http://localhost:4200
+```
+
+---
+
+# 📁 Project Structure
+
+```
+portfolio
+│
+├── src
+│   ├── app
+│   │   ├── modules
+│   │   ├── services
+│   │   ├── shared
+│   │   └── components
+│   │
+│   ├── assets
+│   └── environments
+│
+├── public
+├── angular.json
+├── package.json
+└── README.md
+```
+
+---
+
+# 📄 Resume
+
+The latest version of my resume can be downloaded directly from the portfolio website.
+
+---
+
+# 📬 Contact
+
+## Naveen P
+
+📧 Email
+
+nvnpalani9@gmail.com
+
+💻 GitHub
+
+https://github.com/nvnpalani
+
+💼 LinkedIn
+
+https://www.linkedin.com/in/nvnpalani9
+
+📍 Location
+
+Tiruchirappalli, Tamil Nadu, India
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
