@@ -1,0 +1,32 @@
+<div class="intro-overlay" [class.fade-out]="fadeOutAll">
+  <div class="intro-content">
+    
+    <!-- Step 1 & 2: Welcome Text -->
+    @if (showWelcome) {
+      <h1 class="welcome-text" [class.zoom-fade]="zoomOutWelcome">
+        {{ displayedWelcomeText }}<span class="cursor">|</span>
+      </h1>
+    }
+    
+    <!-- Step 3: Role Text -->
+    @if (showRole) {
+      <div class="flex flex-col items-center justify-center gap-2 mt-4">
+        <h2 class="role-text glow">
+          Angular Developer
+        </h2>
+        <span class="text-gray-500 font-light text-2xl outfit-font my-1 animate-[fadeIn_1s_ease-out_forwards]">&</span>
+        <h2 class="role-text glow">
+          Data Science Developer
+        </h2>
+      </div>
+    }
+    
+    <!-- Step 4: Enter Button -->
+    @if (showButton) {
+      <button class="enter-btn" (click)="enterPortfolio()">
+        Enter Portfolio
+      </button>
+    }
+    
+  </div>
+</div>

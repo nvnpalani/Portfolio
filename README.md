@@ -1,59 +1,66 @@
-# Protfolio
+# Naveen P - Personal Portfolio
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.25.
+A modern, fully responsive personal portfolio website showcasing my skills, experience, and projects. Built with Angular 19 and Tailwind CSS, this portfolio features a clean UI, dynamic theme switching (including dark mode), and a seamless user experience.
 
-## Development server
+## ✨ Features
 
-To start a local development server, run:
+- **Modern UI/UX**: Clean, professional, and visually appealing design.
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices.
+- **Dynamic Theming**: Support for Light & Dark modes with customizable primary color accents.
+- **Interactive Sections**: 
+  - **About Me**: Brief introduction and professional summary.
+  - **Skills**: Technical skills categorized by languages, frameworks, and tools.
+  - **Experience & Education**: Timeline-based professional history and academic qualifications.
+  - **Projects**: Showcases of professional and personal projects.
+  - **Contact**: Direct links to email, LinkedIn, and GitHub.
+- **Resume Download**: Easily download my latest CV directly from the site.
 
-```bash
-ng serve
-```
+## 🛠️ Tech Stack
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- **Framework**: [Angular](https://angular.dev/) (v19)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: Custom SVG icons
+- **Deployment**: Configured for standard web hosting platforms
 
-## Code scaffolding
+## 🚀 Getting Started
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+To get a local copy up and running, follow these simple steps.
 
-```bash
-ng generate component component-name
-```
+### Prerequisites
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Node.js (v18 or higher)
+- Angular CLI (v19+)
 
-```bash
-ng generate --help
-```
+### Installation
 
-## Building
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nvnpalani/protfolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd protfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and navigate to `http://localhost:4200/`.
 
-To build the project run:
+## 📂 Project Structure
 
-```bash
-ng build
-```
+- `src/app/module/` - Contains all feature components (Home, About, Skills, Projects, etc.)
+- `src/app/services/` - Contains shared services (e.g., ThemeService for dark mode & color switching)
+- `src/assets/` - Static assets like images and icons.
+- `public/` - Public facing static files (favicon, logo, cv.pdf).
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 📬 Contact
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Naveen P**
+- Email: nvnpalani9@gmail.com
+- LinkedIn: [linkedin.com/in/nvnpalani9](https://www.linkedin.com/in/nvnpalani9)
+- GitHub: [github.com/nvnpalani](https://github.com/nvnpalani)

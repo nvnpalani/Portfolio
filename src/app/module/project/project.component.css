@@ -1,0 +1,108 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 242, 254, 0.2);
+}
+
+.project-image {
+  width: 100%;
+  height: 220px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #94a3b8;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.project-info {
+  padding: 2.5rem 2rem;
+}
+
+.project-info h3 {
+  font-size: 1.5rem;
+  color: #f8fafc;
+  margin: 0 0 1rem 0;
+}
+
+.project-info p {
+  color: #94a3b8;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+.tech-stack span {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #00f2fe;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-btn {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.live-btn {
+  background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 4px 14px 0 rgba(0, 242, 254, 0.39);
+}
+
+.live-btn:hover {
+  box-shadow: 0 8px 25px rgba(0, 242, 254, 0.5);
+  transform: translateY(-2px);
+}
+
+.github-btn {
+  background: transparent;
+  color: #f8fafc;
+  border: 1px solid #475569;
+}
+
+.github-btn:hover {
+  border-color: #94a3b8;
+  background: rgba(255, 255, 255, 0.05);
+}
